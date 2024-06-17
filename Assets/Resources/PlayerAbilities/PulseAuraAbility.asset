@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b80e047cabfdfe14c9352d2a30ba009a, type: 3}
+  m_Name: PulseAuraAbility
+  m_EditorClassIdentifier: 
+  icon: {fileID: -178209350, guid: 24a9cb6644e784f45aed3f2b00b4ef7e, type: 3}
+  abilityName: "\u041F\u0443\u043B\u044C\u0441\u0438\u0440\u0443\u044E\u0449\u0430\u044F
+    \u0430\u0443\u0440\u0430"
+  quickDescription: "\u0411\u044C\u0435\u0442 \u043F\u043E \u043E\u0431\u043B\u0430\u0441\u0442\u0438
+    \u0432\u043E\u043A\u0440\u0443\u0433 \u0438\u0433\u0440\u043E\u043A\u0430."
+  fullDescription: N/A
+  _quantity: 1
+  _size: 1
+  _power: 1
+  _duration: 3
+  _cooldown: 3
+  statInfos:
+  - stat:
+      BaseValue: 3
+    defaultStat: 0
+    key: AuraDamage
+    defaultKey: 
+    baseValue: 3
+  - stat:
+      BaseValue: 0.5
+    defaultStat: 0
+    key: AuraDamageCooldown
+    defaultKey: 
+    baseValue: 0.5
+  - stat:
+      BaseValue: 1
+    defaultStat: 0
+    key: AuraKnockback
+    defaultKey: 
+    baseValue: 1
+  upgradeInfos:
+  - id: 1
+    stateId: 0
+    statModifiers:
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: Size
+      modifier:
+        Value: 15
+        Type: 200
+    applyUpgrades: 0
+    state: Applied
+  - id: 2
+    stateId: 0
+    statModifiers:
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: AuraDamage
+      modifier:
+        Value: 35
+        Type: 200
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: AuraKnockback
+      modifier:
+        Value: 2
+        Type: 100
+    applyUpgrades: 0
+    state: Applied
+  - id: 3
+    stateId: 0
+    statModifiers:
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: Cooldown
+      modifier:
+        Value: -30
+        Type: 200
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: Duration
+      modifier:
+        Value: 30
+        Type: 200
+    applyUpgrades: 0
+    state: Applied
+  - id: 4
+    stateId: 0
+    statModifiers:
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: Size
+      modifier:
+        Value: 15
+        Type: 200
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: Power
+      modifier:
+        Value: 25
+        Type: 200
+    applyUpgrades: 0
+    state: Applied
+  - id: 5
+    stateId: 0
+    statModifiers:
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: AuraDamageCooldown
+      modifier:
+        Value: -25
+        Type: 200
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: AuraDamage
+      modifier:
+        Value: 25
+        Type: 200
+    applyUpgrades: 0
+    state: Applied
+  - id: 6
+    stateId: 0
+    statModifiers:
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: Duration
+      modifier:
+        Value: 1
+        Type: 100
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: AuraKnockback
+      modifier:
+        Value: 25
+        Type: 200
+    applyUpgrades: 0
+    state: Applied
+  - id: 7
+    stateId: 0
+    statModifiers:
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: Size
+      modifier:
+        Value: 15
+        Type: 200
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: AuraDamage
+      modifier:
+        Value: 20
+        Type: 200
+    applyUpgrades: 0
+    state: Applied
+  - id: 8
+    stateId: 0
+    statModifiers:
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: Size
+      modifier:
+        Value: 25
+        Type: 200
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: Cooldown
+      modifier:
+        Value: -25
+        Type: 200
+    - stats:
+      - Quantity
+      - Size
+      - Power
+      - Duration
+      - Cooldown
+      - AuraDamage
+      - AuraDamageCooldown
+      - AuraKnockback
+      statName: Duration
+      modifier:
+        Value: 25
+        Type: 200
+    applyUpgrades: 0
+    state: Applied
+  baseStatInfos:
+  - stat:
+      BaseValue: 1
+    defaultStat: 0
+    key: Quantity
+    defaultKey: 
+    baseValue: 1
+  - stat:
+      BaseValue: 1
+    defaultStat: 0
+    key: Size
+    defaultKey: 
+    baseValue: 1
+  - stat:
+      BaseValue: 1
+    defaultStat: 0
+    key: Power
+    defaultKey: 
+    baseValue: 1
+  - stat:
+      BaseValue: 3
+    defaultStat: 0
+    key: Duration
+    defaultKey: 
+    baseValue: 3
+  - stat:
+      BaseValue: 3
+    defaultStat: 0
+    key: Cooldown
+    defaultKey: 
+    baseValue: 3
+  _upgradeLevel: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e772f9ebc4d16440a03a74d3797602c, type: 3}
+  m_Name: OptionSelection
+  m_EditorClassIdentifier: 
+  horizontalPadding: 75
+  verticalPadding: 30
+  spacing: 10
+  roundabout: 0
+  arrowColor: {r: 1, g: 1, b: 1, a: 1}
+  disabledArrowColor: {r: 0.22012573, g: 0.22012573, b: 0.22012573, a: 1}
+  clickSfx: {fileID: 11400000, guid: 71a645b716792c54a956561300b18203, type: 2}

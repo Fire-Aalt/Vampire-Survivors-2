@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1053221395188774389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 268404150213882329, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b749288d40a9ca74f9f964ad0d426f44, type: 2}
+    - target: {fileID: 1757850096965523319, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Name
+      value: ManWithSword
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432976505989067997, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: _maxAffectedVelocity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432976505989067997, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: <Data>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: 6fe6f95fe3a4f5549913e99ea2544d87, type: 2}
+    - target: {fileID: 3432976505989067997, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: _moveAnimSpeedCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432976505989067997, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: _moveAnimSpeedCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432976505989067997, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: _moveAnimSpeedCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432976505989067997, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: _moveAnimSpeedCurve.m_Curve.Array.data[0].inSlope
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432976505989067997, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: _moveAnimSpeedCurve.m_Curve.Array.data[0].outSlope
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6362885204670469001, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 724497419, guid: 5b71652fe3c00a746856a01cb02053d0, type: 3}
+    - target: {fileID: 6747956715622620249, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: radius
+      value: 1.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747956715622620249, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: offset.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747956715622620249, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: offset.y
+      value: -0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6864360459906822545, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Size.x
+      value: 0.50785637
+      objectReference: {fileID: 0}
+    - target: {fileID: 6864360459906822545, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Size.y
+      value: 0.2429756
+      objectReference: {fileID: 0}
+    - target: {fileID: 6864360459906822545, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.024670124
+      objectReference: {fileID: 0}
+    - target: {fileID: 6864360459906822545, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.6330109
+      objectReference: {fileID: 0}
+    - target: {fileID: 6937847216409203224, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Size.x
+      value: 0.4509201
+      objectReference: {fileID: 0}
+    - target: {fileID: 6937847216409203224, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Size.y
+      value: 0.76597375
+      objectReference: {fileID: 0}
+    - target: {fileID: 6937847216409203224, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.02468443
+      objectReference: {fileID: 0}
+    - target: {fileID: 6937847216409203224, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.24092463
+      objectReference: {fileID: 0}
+    - target: {fileID: 7982934612648925157, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7982934612648925157, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8549058387392674980, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Size.x
+      value: 0.3512678
+      objectReference: {fileID: 0}
+    - target: {fileID: 8549058387392674980, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Size.y
+      value: 0.76725936
+      objectReference: {fileID: 0}
+    - target: {fileID: 8549058387392674980, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.024218082
+      objectReference: {fileID: 0}
+    - target: {fileID: 8549058387392674980, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.26915443
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892309947382687374, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892309947382687374, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892309947382687374, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892309947382687374, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892309947382687374, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892309947382687374, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892309947382687374, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892309947382687374, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892309947382687374, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892309947382687374, guid: f64868effcc561e42919b66021370c54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1757850096965523319, guid: f64868effcc561e42919b66021370c54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6052653509851855758}
+  m_SourcePrefab: {fileID: 100100000, guid: f64868effcc561e42919b66021370c54, type: 3}
+--- !u!1 &1655328082297709186 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1757850096965523319, guid: f64868effcc561e42919b66021370c54, type: 3}
+  m_PrefabInstance: {fileID: 1053221395188774389}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6052653509851855758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655328082297709186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 1
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 0}
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(479.1667,30)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"Game.EnemyChaseTarget","NodeData":{"Offset":"(-0.833313,120)"},"ID":1,"Name":"Enemy
+        Chase Target","Instant":true,"Singlespeed":1.25}}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.9
+  gizmoViewMode: 2
+  showBehaviorDesignerGizmo: 1
